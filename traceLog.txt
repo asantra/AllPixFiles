@@ -1,0 +1,230 @@
+|21:36:31.486|   (TRACE) Global log level is set to TRACE
+|21:36:31.486|   (TRACE) Global log format is set to DEFAULT
+|21:36:31.486|   (TRACE) Loading Allpix
+|21:36:31.486|  (STATUS) Welcome to Allpix^2 v1.6.0+30^g3d3aca0d
+|21:36:31.486|  (STATUS) Initialized PRNG with system entropy seed 11502196406763730636
+|21:36:31.487|   (DEBUG) Output directory /Users/arkasantra/AllPix2/allpix-squared/output already exists
+|21:36:31.487|   (TRACE) Adding physical units
+|21:36:31.487|   (TRACE) Setting ROOT plotting style
+|21:36:31.688|   (DEBUG) Loading detectors
+|21:36:31.689|   (DEBUG) Detector Stave00:
+|21:36:31.689|   (DEBUG) Position:    (67.73mm,618.72um,3864.51mm)
+|21:36:31.689|   (DEBUG)  misaligned: (67.73mm,618.72um,3864.51mm)
+|21:36:31.689|   (DEBUG) Orientation: (0deg,0deg,0deg)
+|21:36:31.689|   (DEBUG)  misaligned: (0deg,0deg,0deg)
+|21:36:31.689|   (DEBUG) Interpreting Euler angles as XYZ rotation
+|21:36:31.690|   (TRACE) Registering new detector Stave00
+|21:36:31.690|   (TRACE) Registered model path: /Users/arkasantra/AllPix2/allpix-squared/models
+|21:36:31.690| (WARNING) Main ROOT file /Users/arkasantra/AllPix2/allpix-squared/output/modules.root exists and will be overwritten.
+|21:36:31.691|  (STATUS) Loading module GeometryBuilderGeant4
+|21:36:31.692|   (DEBUG) Found library during global search in runtime paths at /Users/arkasantra/AllPix2/allpix-squared/lib/libAllpixModuleGeometryBuilderGeant4.dylib
+|21:36:31.692|   (DEBUG) Creating unique instantiation GeometryBuilderGeant4
+|21:36:31.692|   (TRACE) [C:GeometryBuilderGeant4] Registering 0 passive material volume(s)
+|21:36:31.692|  (STATUS) Loading module DepositionReader
+|21:36:31.693|   (DEBUG) Found library during global search in runtime paths at /Users/arkasantra/AllPix2/allpix-squared/lib/libAllpixModuleDepositionReader.dylib
+|21:36:31.693|   (DEBUG) Creating unique instantiation DepositionReader
+|21:36:31.694|  (STATUS) Loading module ElectricFieldReader
+|21:36:31.694|   (DEBUG) Found library during global search in runtime paths at /Users/arkasantra/AllPix2/allpix-squared/lib/libAllpixModuleElectricFieldReader.dylib
+|21:36:31.694|   (DEBUG) Creating instantions for detector module ElectricFieldReader
+|21:36:31.695|   (TRACE) Starting geometry closing procedure
+|21:36:31.695|   (TRACE) Loading remaining default models
+|21:36:31.695|   (TRACE) Reading model files
+|21:36:31.695|   (TRACE) Reading model /Users/arkasantra/AllPix2/allpix-squared/models/velopix.conf
+|21:36:31.695|   (TRACE) Parsing configuration file /Users/arkasantra/AllPix2/allpix-squared/models/velopix.conf
+|21:36:31.696|   (TRACE) Reading model /Users/arkasantra/AllPix2/allpix-squared/models/clicpix2.conf
+|21:36:31.696|   (TRACE) Parsing configuration file /Users/arkasantra/AllPix2/allpix-squared/models/clicpix2.conf
+|21:36:31.696|   (TRACE) Reading model /Users/arkasantra/AllPix2/allpix-squared/models/test.conf
+|21:36:31.696|   (TRACE) Parsing configuration file /Users/arkasantra/AllPix2/allpix-squared/models/test.conf
+|21:36:31.697|   (TRACE) Reading model /Users/arkasantra/AllPix2/allpix-squared/models/clicpix.conf
+|21:36:31.697|   (TRACE) Parsing configuration file /Users/arkasantra/AllPix2/allpix-squared/models/clicpix.conf
+|21:36:31.697|   (TRACE) Reading model /Users/arkasantra/AllPix2/allpix-squared/models/medipix3.conf
+|21:36:31.697|   (TRACE) Parsing configuration file /Users/arkasantra/AllPix2/allpix-squared/models/medipix3.conf
+|21:36:31.698|   (TRACE) Reading model /Users/arkasantra/AllPix2/allpix-squared/models/diode.conf
+|21:36:31.698|   (TRACE) Parsing configuration file /Users/arkasantra/AllPix2/allpix-squared/models/diode.conf
+|21:36:31.698|   (TRACE) Reading model /Users/arkasantra/AllPix2/allpix-squared/models/mimosa26.conf
+|21:36:31.698|   (TRACE) Parsing configuration file /Users/arkasantra/AllPix2/allpix-squared/models/mimosa26.conf
+|21:36:31.699|   (TRACE) Reading model /Users/arkasantra/AllPix2/allpix-squared/models/timepix.conf
+|21:36:31.699|   (TRACE) Parsing configuration file /Users/arkasantra/AllPix2/allpix-squared/models/timepix.conf
+|21:36:31.699|   (TRACE) Reading model /Users/arkasantra/AllPix2/allpix-squared/models/fei3.conf
+|21:36:31.699|   (TRACE) Parsing configuration file /Users/arkasantra/AllPix2/allpix-squared/models/fei3.conf
+|21:36:31.700|   (TRACE) Reading model /Users/arkasantra/AllPix2/allpix-squared/models/ibl_planar.conf
+|21:36:31.700|   (TRACE) Parsing configuration file /Users/arkasantra/AllPix2/allpix-squared/models/ibl_planar.conf
+|21:36:31.700|   (TRACE) Reading model /Users/arkasantra/AllPix2/allpix-squared/models/alpideARKA.conf
+|21:36:31.700|   (TRACE) Parsing configuration file /Users/arkasantra/AllPix2/allpix-squared/models/alpideARKA.conf
+|21:36:31.701|   (TRACE) Reading model /Users/arkasantra/AllPix2/allpix-squared/models/alpide.conf
+|21:36:31.701|   (TRACE) Parsing configuration file /Users/arkasantra/AllPix2/allpix-squared/models/alpide.conf
+|21:36:31.701|   (TRACE) Reading model /Users/arkasantra/AllPix2/allpix-squared/models/cmsp1.conf
+|21:36:31.701|   (TRACE) Parsing configuration file /Users/arkasantra/AllPix2/allpix-squared/models/cmsp1.conf
+|21:36:31.702|   (TRACE) Reading model /Users/arkasantra/AllPix2/allpix-squared/models/mimosa23.conf
+|21:36:31.702|   (TRACE) Parsing configuration file /Users/arkasantra/AllPix2/allpix-squared/models/mimosa23.conf
+|21:36:31.702|   (TRACE) Parsing models
+|21:36:31.702|   (TRACE) Skipping not required model velopix in path /Users/arkasantra/AllPix2/allpix-squared/models/velopix.conf
+|21:36:31.702|   (TRACE) Skipping not required model clicpix2 in path /Users/arkasantra/AllPix2/allpix-squared/models/clicpix2.conf
+|21:36:31.703|   (TRACE) Skipping not required model test in path /Users/arkasantra/AllPix2/allpix-squared/models/test.conf
+|21:36:31.703|   (TRACE) Skipping not required model clicpix in path /Users/arkasantra/AllPix2/allpix-squared/models/clicpix.conf
+|21:36:31.703|   (TRACE) Skipping not required model medipix3 in path /Users/arkasantra/AllPix2/allpix-squared/models/medipix3.conf
+|21:36:31.703|   (TRACE) Skipping not required model diode in path /Users/arkasantra/AllPix2/allpix-squared/models/diode.conf
+|21:36:31.703|   (TRACE) Skipping not required model mimosa26 in path /Users/arkasantra/AllPix2/allpix-squared/models/mimosa26.conf
+|21:36:31.704|   (TRACE) Skipping not required model timepix in path /Users/arkasantra/AllPix2/allpix-squared/models/timepix.conf
+|21:36:31.704|   (TRACE) Skipping not required model fei3 in path /Users/arkasantra/AllPix2/allpix-squared/models/fei3.conf
+|21:36:31.704|   (TRACE) Skipping not required model ibl_planar in path /Users/arkasantra/AllPix2/allpix-squared/models/ibl_planar.conf
+|21:36:31.704|   (TRACE) Registering new model alpideARKA
+|21:36:31.705|   (TRACE) Skipping not required model alpide in path /Users/arkasantra/AllPix2/allpix-squared/models/alpide.conf
+|21:36:31.705|   (TRACE) Skipping not required model cmsp1 in path /Users/arkasantra/AllPix2/allpix-squared/models/cmsp1.conf
+|21:36:31.705|   (TRACE) Skipping not required model mimosa23 in path /Users/arkasantra/AllPix2/allpix-squared/models/mimosa23.conf
+|21:36:31.705|   (TRACE) Closed geometry
+|21:36:31.705|   (DEBUG) Creating detector instantiation ElectricFieldReader:Stave00
+|21:36:31.706|  (STATUS) Loading module ProjectionPropagation
+|21:36:31.706|   (DEBUG) Found library during global search in runtime paths at /Users/arkasantra/AllPix2/allpix-squared/lib/libAllpixModuleProjectionPropagation.dylib
+|21:36:31.706|   (DEBUG) Creating instantions for detector module ProjectionPropagation
+|21:36:31.706|   (DEBUG) Creating detector instantiation ProjectionPropagation:Stave00
+|21:36:31.707|  (STATUS) Loading module SimpleTransfer
+|21:36:31.707|   (DEBUG) Found library during global search in runtime paths at /Users/arkasantra/AllPix2/allpix-squared/lib/libAllpixModuleSimpleTransfer.dylib
+|21:36:31.707|   (DEBUG) Creating instantions for detector module SimpleTransfer
+|21:36:31.708|   (DEBUG) Creating detector instantiation SimpleTransfer:Stave00
+|21:36:31.708|  (STATUS) Loading module DefaultDigitizer
+|21:36:31.708|   (DEBUG) Found library during global search in runtime paths at /Users/arkasantra/AllPix2/allpix-squared/lib/libAllpixModuleDefaultDigitizer.dylib
+|21:36:31.708|   (DEBUG) Creating instantions for detector module DefaultDigitizer
+|21:36:31.708|   (DEBUG) Creating detector instantiation DefaultDigitizer:Stave00
+|21:36:31.709|  (STATUS) Loading module DetectorHistogrammer
+|21:36:31.709|   (DEBUG) Found library during global search in runtime paths at /Users/arkasantra/AllPix2/allpix-squared/lib/libAllpixModuleDetectorHistogrammer.dylib
+|21:36:31.709|   (DEBUG) Creating instantions for detector module DetectorHistogrammer
+|21:36:31.709|   (DEBUG) Creating detector instantiation DetectorHistogrammer:Stave00
+|21:36:31.710|  (STATUS) Loading module ROOTObjectWriter
+|21:36:31.710|   (DEBUG) Found library during global search in runtime paths at /Users/arkasantra/AllPix2/allpix-squared/lib/libAllpixModuleROOTObjectWriter.dylib
+|21:36:31.710|   (DEBUG) Creating unique instantiation ROOTObjectWriter
+|21:36:31.710|  (STATUS) Loaded 8 modules
+|21:36:31.711|   (TRACE) Initializing Allpix
+|21:36:31.711|  (STATUS) Initializing 8 module instantiations
+|21:36:31.711|   (TRACE) Initializing GeometryBuilderGeant4    
+|21:36:31.711|   (TRACE) Creating and accessing ROOT directory
+|21:36:31.712|   (DEBUG) [I:GeometryBuilderGeant4] Checking Geant4 datasets
+|21:36:31.754|   (TRACE) [I:GeometryBuilderGeant4] Building Geant4 geometry
+|21:36:31.755|   (TRACE) [I:GeometryBuilderGeant4] Material of world is G4_AIR
+|21:36:31.756|   (DEBUG) [I:GeometryBuilderGeant4] World size is (182.008mm,19.14mm,8502.01mm)
+|21:36:31.756|   (TRACE) [I:GeometryBuilderGeant4] Building 1 device(s)
+|21:36:31.756|   (DEBUG) [I:GeometryBuilderGeant4] Creating Geant4 model for Stave00
+|21:36:31.756|   (DEBUG) [I:GeometryBuilderGeant4]  Wrapper dimensions of model: (30.0018mm,16.1626mm,50um)
+|21:36:31.757|   (TRACE) [I:GeometryBuilderGeant4]  Sensor dimensions: (30.0018mm,15.1626mm,25um)
+|21:36:31.757|   (TRACE) [I:GeometryBuilderGeant4]  Chip dimensions: (30.0018mm,15.1626mm,25um)
+|21:36:31.757|   (DEBUG) [I:GeometryBuilderGeant4]  Global position and orientation of the detector:
+|21:36:31.757|   (DEBUG) [I:GeometryBuilderGeant4]  - Position		:	(67.73mm,618.72um,3864.51mm)
+|21:36:31.757|   (DEBUG) [I:GeometryBuilderGeant4]  Center of the geometry parts relative to the detector wrapper geometric center:
+|21:36:31.757|   (DEBUG) [I:GeometryBuilderGeant4]   - Sensor		:	(0mm,500um,-12.5um)
+|21:36:31.758|   (DEBUG) [I:GeometryBuilderGeant4]   - Chip		:	(0mm,500um,12.5um)
+|21:36:31.758|   (DEBUG) [I:GeometryBuilderGeant4] Storing total material budget of 0.000533842 x/X0 for detector Stave00
+|21:36:31.758|   (TRACE) [I:GeometryBuilderGeant4]  Constructed detector Stave00 successfully
+|21:36:31.758|   (TRACE) [I:GeometryBuilderGeant4] Checking overlaps
+|21:36:31.758|    (INFO) [I:GeometryBuilderGeant4] No overlapping volumes detected.
+|21:36:31.758|   (TRACE) [I:GeometryBuilderGeant4] Resetting messages
+|21:36:31.759|   (TRACE) Initializing DepositionReader
+|21:36:31.759|   (TRACE) Creating and accessing ROOT directory
+|21:36:31.759| (WARNING) [I:DepositionReader] No MCParticle objects will be produced
+|21:36:32.192|    (INFO) [I:DepositionReader] Initialized tree reader for tree hitTreeOneChip, found 169782 entries
+|21:36:32.192|   (DEBUG) [I:DepositionReader] List of configured branches and their names:
+|21:36:32.192|   (DEBUG) [I:DepositionReader] energy: "energy"
+|21:36:32.192|   (DEBUG) [I:DepositionReader] event: "event"
+|21:36:32.192|   (DEBUG) [I:DepositionReader] pdg: "pdg_code"
+|21:36:32.192|   (DEBUG) [I:DepositionReader] px: "x"
+|21:36:32.193|   (DEBUG) [I:DepositionReader] py: "y"
+|21:36:32.193|   (DEBUG) [I:DepositionReader] pz: "z"
+|21:36:32.193|   (DEBUG) [I:DepositionReader] time: "time"
+|21:36:32.193|   (DEBUG) [I:DepositionReader] volume: "detector"
+|21:36:32.193|   (TRACE) [I:DepositionReader] Creating output plots
+|21:36:32.193|   (TRACE) [I:DepositionReader] Resetting messages
+|21:36:32.193|   (TRACE) Initializing ElectricFieldReader:Stave00
+|21:36:32.194|   (TRACE) Creating and accessing ROOT directory
+|21:36:32.194|   (TRACE) [I:ElectricFieldReader:Stave00] Adding linear electric field
+|21:36:32.194|    (INFO) [I:ElectricFieldReader:Stave00] Setting linear electric field from -50V bias voltage and -30V depletion voltage
+|21:36:32.194|   (TRACE) [I:ElectricFieldReader:Stave00] Calculating function for the linear electric field.
+|21:36:32.194|   (TRACE) [I:ElectricFieldReader:Stave00] Effective thickness of the electric field: 25um
+|21:36:32.194|   (DEBUG) [I:ElectricFieldReader:Stave00] Depleting the sensor from the implant side.
+|21:36:32.195|   (TRACE) [I:ElectricFieldReader:Stave00] Creating output plots
+|21:36:33.433|   (TRACE) [I:ElectricFieldReader:Stave00] Resetting messages
+|21:36:33.434|   (TRACE) Initializing ProjectionPropagation:Stave00
+|21:36:33.434|   (TRACE) Creating and accessing ROOT directory
+|21:36:33.434|   (TRACE) [I:ProjectionPropagation:Stave00] Resetting messages
+|21:36:33.434|   (TRACE) Initializing SimpleTransfer:Stave00
+|21:36:33.434|   (TRACE) Creating and accessing ROOT directory
+|21:36:33.434|   (TRACE) [I:SimpleTransfer:Stave00] Resetting messages
+|21:36:33.434|   (TRACE) Initializing DefaultDigitizer:Stave00
+|21:36:33.434|   (TRACE) Creating and accessing ROOT directory
+|21:36:33.435|   (TRACE) [I:DefaultDigitizer:Stave00] Creating output plots
+|21:36:33.435|   (TRACE) [I:DefaultDigitizer:Stave00] Resetting messages
+|21:36:33.435|   (TRACE) Initializing DetectorHistogrammer:Stave00
+|21:36:33.435|   (TRACE) Creating and accessing ROOT directory
+|21:36:33.435|   (TRACE) [I:DetectorHistogrammer:Stave00] Creating histograms
+|21:36:33.439|   (DEBUG) [I:DetectorHistogrammer:Stave00] In-pixel plot granularity: (29,26)
+|21:36:33.459|   (TRACE) [I:DetectorHistogrammer:Stave00] Resetting messages
+|21:36:33.459|   (TRACE) Initializing ROOTObjectWriter
+|21:36:33.459|   (TRACE) Creating and accessing ROOT directory
+|21:36:33.460| (WARNING) [I:ROOTObjectWriter] File /Users/arkasantra/AllPix2/allpix-squared/output/data.root exists and will be overwritten.
+|21:36:33.463|   (TRACE) [I:ROOTObjectWriter] Resetting messages
+|21:36:33.463|  (STATUS) Initialized 8 module instantiations
+|21:36:33.464|   (TRACE) Running Allpix
+|21:36:33.464|   (DEBUG) Initializing thread pool with 0 additional thread(s)
+|21:36:33.464|  (STATUS) Running event 1 of 1
+|21:36:33.464|   (TRACE) Running event 1 of 1 [GeometryBuilderGeant4]
+|21:36:33.465|   (TRACE) Running event 1 of 1 [DepositionReader]      
+|21:36:33.465|   (DEBUG) [R:DepositionReader] Start reading event 1
+|21:36:33.469|    (INFO) [R:DepositionReader] Finished reading event 1
+|21:36:33.469|   (TRACE) Running event 1 of 1 [ElectricFieldReader:Stave00]
+|21:36:33.469|   (TRACE) Running event 1 of 1 [ProjectionPropagation:Stave00]
+|21:36:33.470|   (TRACE) Not all required messages are received for ProjectionPropagation:Stave00, skipping module!
+|21:36:33.470|   (TRACE) Running event 1 of 1 [SimpleTransfer:Stave00]
+|21:36:33.470|   (TRACE) Not all required messages are received for SimpleTransfer:Stave00, skipping module!
+|21:36:33.470|   (TRACE) Running event 1 of 1 [DefaultDigitizer:Stave00]
+|21:36:33.470|   (TRACE) Not all required messages are received for DefaultDigitizer:Stave00, skipping module!
+|21:36:33.470|   (TRACE) Running event 1 of 1 [DetectorHistogrammer:Stave00]
+|21:36:33.471|   (TRACE) Not all required messages are received for DetectorHistogrammer:Stave00, skipping module!
+|21:36:33.471|   (TRACE) Running event 1 of 1 [ROOTObjectWriter]
+|21:36:33.471|   (TRACE) [R:ROOTObjectWriter] Writing new objects to tree
+|21:36:33.471|   (TRACE) Resetting messages
+|21:36:33.471|   (TRACE) Resetting messages
+|21:36:33.471|   (TRACE) Resetting messages
+|21:36:33.471|   (TRACE) Resetting messages
+|21:36:33.471|   (TRACE) Resetting messages
+|21:36:33.472|   (TRACE) Resetting messages
+|21:36:33.472|   (TRACE) Resetting messages
+|21:36:33.472|   (TRACE) Resetting messages
+|21:36:33.472|  (STATUS) Finished run of 1 events
+|21:36:33.472|   (TRACE) Destroying thread pool
+|21:36:33.472|   (TRACE) Finalizing Allpix
+|21:36:33.472|   (TRACE) Finalizing module instantiations
+|21:36:33.472|   (TRACE) Finalizing GeometryBuilderGeant4
+|21:36:33.472|   (TRACE) Finalizing DepositionReader      
+|21:36:33.473|   (TRACE) [F:DepositionReader] Writing output plots to file
+|21:36:33.475|   (TRACE) Finalizing ElectricFieldReader:Stave00
+|21:36:33.476|   (TRACE) Finalizing ProjectionPropagation:Stave00
+|21:36:33.476|   (TRACE) Finalizing SimpleTransfer:Stave00        
+|21:36:33.476|    (INFO) [F:SimpleTransfer:Stave00] Transferred total of 0 charges to 0 different pixels
+|21:36:33.476|   (TRACE) Finalizing DefaultDigitizer:Stave00
+|21:36:33.476|   (TRACE) [F:DefaultDigitizer:Stave00] Writing output plots to file
+|21:36:33.477|    (INFO) [F:DefaultDigitizer:Stave00] Digitized 0 pixel hits in total
+|21:36:33.477|   (TRACE) Finalizing DetectorHistogrammer:Stave00
+|21:36:33.482|   (TRACE) [F:DetectorHistogrammer:Stave00] Writing histograms to file
+|21:36:33.640|   (TRACE) Finalizing ROOTObjectWriter
+|21:36:33.640|   (TRACE) [F:ROOTObjectWriter] Writing objects to file
+|21:36:33.640|   (TRACE) [F:ROOTObjectWriter] Writing global configuration
+|21:36:33.641|   (TRACE) [F:ROOTObjectWriter] Writing configuration for: GeometryBuilderGeant4
+|21:36:33.641|   (TRACE) [F:ROOTObjectWriter] Writing configuration for: DepositionReader
+|21:36:33.641|   (TRACE) [F:ROOTObjectWriter] Writing configuration for: ElectricFieldReader:Stave00
+|21:36:33.642|   (TRACE) [F:ROOTObjectWriter] Writing configuration for: ProjectionPropagation:Stave00
+|21:36:33.642|   (TRACE) [F:ROOTObjectWriter] Writing configuration for: SimpleTransfer:Stave00
+|21:36:33.642|   (TRACE) [F:ROOTObjectWriter] Writing configuration for: DefaultDigitizer:Stave00
+|21:36:33.642|   (TRACE) [F:ROOTObjectWriter] Writing configuration for: DetectorHistogrammer:Stave00
+|21:36:33.643|   (TRACE) [F:ROOTObjectWriter] Writing configuration for: ROOTObjectWriter
+|21:36:33.643|   (TRACE) [F:ROOTObjectWriter] Writing detector configuration for: Stave00
+|21:36:33.648|  (STATUS) [F:ROOTObjectWriter] Wrote 0 objects to 0 branches in file:
+                                              /Users/arkasantra/AllPix2/allpix-squared/output/data.root
+|21:36:33.662|  (STATUS) Finalization completed
+|21:36:33.662|  (STATUS) Executed 8 instantiations in 2 seconds, spending 64% of time in slowest instantiation ElectricFieldReader:Stave00
+|21:36:33.662|    (INFO)  Module GeometryBuilderGeant4 took 0.0463729 seconds
+|21:36:33.663|    (INFO)  Module DepositionReader took 0.441902 seconds
+|21:36:33.663|    (INFO)  Module ElectricFieldReader:Stave00 took 1.23889 seconds
+|21:36:33.663|    (INFO)  Module ProjectionPropagation:Stave00 took 0.00052761 seconds
+|21:36:33.663|    (INFO)  Module SimpleTransfer:Stave00 took 0.000487491 seconds
+|21:36:33.663|    (INFO)  Module DefaultDigitizer:Stave00 took 0.00148738 seconds
+|21:36:33.663|    (INFO)  Module DetectorHistogrammer:Stave00 took 0.186726 seconds
+|21:36:33.663|    (INFO)  Module ROOTObjectWriter took 0.0126528 seconds
+|21:36:33.663|  (STATUS) Average processing time is 1949 ms/event, event generation at 1 Hz

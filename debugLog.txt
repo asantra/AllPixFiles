@@ -1,0 +1,89 @@
+|21:36:57.802|  (STATUS) Welcome to Allpix^2 v1.6.0+30^g3d3aca0d
+|21:36:57.802|  (STATUS) Initialized PRNG with system entropy seed 14577166050769104290
+|21:36:57.802|   (DEBUG) Output directory /Users/arkasantra/AllPix2/allpix-squared/output already exists
+|21:36:57.957|   (DEBUG) Loading detectors
+|21:36:57.957|   (DEBUG) Detector Stave00:
+|21:36:57.957|   (DEBUG) Position:    (67.73mm,618.72um,3864.51mm)
+|21:36:57.957|   (DEBUG)  misaligned: (67.73mm,618.72um,3864.51mm)
+|21:36:57.957|   (DEBUG) Orientation: (0deg,0deg,0deg)
+|21:36:57.957|   (DEBUG)  misaligned: (0deg,0deg,0deg)
+|21:36:57.957|   (DEBUG) Interpreting Euler angles as XYZ rotation
+|21:36:57.958| (WARNING) Main ROOT file /Users/arkasantra/AllPix2/allpix-squared/output/modules.root exists and will be overwritten.
+|21:36:57.959|  (STATUS) Loading module GeometryBuilderGeant4
+|21:36:57.960|   (DEBUG) Found library during global search in runtime paths at /Users/arkasantra/AllPix2/allpix-squared/lib/libAllpixModuleGeometryBuilderGeant4.dylib
+|21:36:57.961|   (DEBUG) Creating unique instantiation GeometryBuilderGeant4
+|21:36:57.961|  (STATUS) Loading module DepositionReader
+|21:36:57.962|   (DEBUG) Found library during global search in runtime paths at /Users/arkasantra/AllPix2/allpix-squared/lib/libAllpixModuleDepositionReader.dylib
+|21:36:57.963|   (DEBUG) Creating unique instantiation DepositionReader
+|21:36:57.963|  (STATUS) Loading module ElectricFieldReader
+|21:36:57.964|   (DEBUG) Found library during global search in runtime paths at /Users/arkasantra/AllPix2/allpix-squared/lib/libAllpixModuleElectricFieldReader.dylib
+|21:36:57.964|   (DEBUG) Creating instantions for detector module ElectricFieldReader
+|21:36:57.968|   (DEBUG) Creating detector instantiation ElectricFieldReader:Stave00
+|21:36:57.968|  (STATUS) Loading module ProjectionPropagation
+|21:36:57.969|   (DEBUG) Found library during global search in runtime paths at /Users/arkasantra/AllPix2/allpix-squared/lib/libAllpixModuleProjectionPropagation.dylib
+|21:36:57.969|   (DEBUG) Creating instantions for detector module ProjectionPropagation
+|21:36:57.969|   (DEBUG) Creating detector instantiation ProjectionPropagation:Stave00
+|21:36:57.970|  (STATUS) Loading module SimpleTransfer
+|21:36:57.970|   (DEBUG) Found library during global search in runtime paths at /Users/arkasantra/AllPix2/allpix-squared/lib/libAllpixModuleSimpleTransfer.dylib
+|21:36:57.971|   (DEBUG) Creating instantions for detector module SimpleTransfer
+|21:36:57.971|   (DEBUG) Creating detector instantiation SimpleTransfer:Stave00
+|21:36:57.971|  (STATUS) Loading module DefaultDigitizer
+|21:36:57.971|   (DEBUG) Found library during global search in runtime paths at /Users/arkasantra/AllPix2/allpix-squared/lib/libAllpixModuleDefaultDigitizer.dylib
+|21:36:57.972|   (DEBUG) Creating instantions for detector module DefaultDigitizer
+|21:36:57.972|   (DEBUG) Creating detector instantiation DefaultDigitizer:Stave00
+|21:36:57.972|  (STATUS) Loading module DetectorHistogrammer
+|21:36:57.972|   (DEBUG) Found library during global search in runtime paths at /Users/arkasantra/AllPix2/allpix-squared/lib/libAllpixModuleDetectorHistogrammer.dylib
+|21:36:57.973|   (DEBUG) Creating instantions for detector module DetectorHistogrammer
+|21:36:57.973|   (DEBUG) Creating detector instantiation DetectorHistogrammer:Stave00
+|21:36:57.973|  (STATUS) Loading module ROOTObjectWriter
+|21:36:57.973|   (DEBUG) Found library during global search in runtime paths at /Users/arkasantra/AllPix2/allpix-squared/lib/libAllpixModuleROOTObjectWriter.dylib
+|21:36:57.974|   (DEBUG) Creating unique instantiation ROOTObjectWriter
+|21:36:57.974|  (STATUS) Loaded 8 modules
+|21:36:57.974|  (STATUS) Initializing 8 module instantiations
+|21:36:57.976|   (DEBUG) [I:GeometryBuilderGeant4] Checking Geant4 datasets
+|21:36:58.018|   (DEBUG) [I:GeometryBuilderGeant4] World size is (182.008mm,19.14mm,8502.01mm)
+|21:36:58.019|   (DEBUG) [I:GeometryBuilderGeant4] Creating Geant4 model for Stave00
+|21:36:58.019|   (DEBUG) [I:GeometryBuilderGeant4]  Wrapper dimensions of model: (30.0018mm,16.1626mm,50um)
+|21:36:58.019|   (DEBUG) [I:GeometryBuilderGeant4]  Global position and orientation of the detector:
+|21:36:58.019|   (DEBUG) [I:GeometryBuilderGeant4]  - Position		:	(67.73mm,618.72um,3864.51mm)
+|21:36:58.019|   (DEBUG) [I:GeometryBuilderGeant4]  Center of the geometry parts relative to the detector wrapper geometric center:
+|21:36:58.019|   (DEBUG) [I:GeometryBuilderGeant4]   - Sensor		:	(0mm,500um,-12.5um)
+|21:36:58.020|   (DEBUG) [I:GeometryBuilderGeant4]   - Chip		:	(0mm,500um,12.5um)
+|21:36:58.020|   (DEBUG) [I:GeometryBuilderGeant4] Storing total material budget of 0.000533842 x/X0 for detector Stave00
+|21:36:58.020|    (INFO) [I:GeometryBuilderGeant4] No overlapping volumes detected.
+|21:36:58.020| (WARNING) [I:DepositionReader] No MCParticle objects will be produced
+|21:36:58.456|    (INFO) [I:DepositionReader] Initialized tree reader for tree hitTreeOneChip, found 169782 entries
+|21:36:58.457|   (DEBUG) [I:DepositionReader] List of configured branches and their names:
+|21:36:58.457|   (DEBUG) [I:DepositionReader] energy: "energy"
+|21:36:58.457|   (DEBUG) [I:DepositionReader] event: "event"
+|21:36:58.457|   (DEBUG) [I:DepositionReader] pdg: "pdg_code"
+|21:36:58.457|   (DEBUG) [I:DepositionReader] px: "x"
+|21:36:58.457|   (DEBUG) [I:DepositionReader] py: "y"
+|21:36:58.457|   (DEBUG) [I:DepositionReader] pz: "z"
+|21:36:58.457|   (DEBUG) [I:DepositionReader] time: "time"
+|21:36:58.457|   (DEBUG) [I:DepositionReader] volume: "detector"
+|21:36:58.458|    (INFO) [I:ElectricFieldReader:Stave00] Setting linear electric field from -50V bias voltage and -30V depletion voltage
+|21:36:58.458|   (DEBUG) [I:ElectricFieldReader:Stave00] Depleting the sensor from the implant side.
+|21:36:59.697|   (DEBUG) [I:DetectorHistogrammer:Stave00] In-pixel plot granularity: (29,26)
+|21:36:59.717| (WARNING) [I:ROOTObjectWriter] File /Users/arkasantra/AllPix2/allpix-squared/output/data.root exists and will be overwritten.
+|21:36:59.718|  (STATUS) Initialized 8 module instantiations
+|21:36:59.719|   (DEBUG) Initializing thread pool with 0 additional thread(s)
+|21:36:59.719|  (STATUS) Running event 1 of 1
+|21:36:59.719|   (DEBUG) [R:DepositionReader] Start reading event 1
+|21:36:59.722|    (INFO) [R:DepositionReader] Finished reading event 1
+|21:36:59.722|  (STATUS) Finished run of 1 events
+|21:36:59.725|    (INFO) [F:SimpleTransfer:Stave00] Transferred total of 0 charges to 0 different pixels
+|21:36:59.727|    (INFO) [F:DefaultDigitizer:Stave00] Digitized 0 pixel hits in total
+|21:36:59.900|  (STATUS) [F:ROOTObjectWriter] Wrote 0 objects to 0 branches in file:
+                                              /Users/arkasantra/AllPix2/allpix-squared/output/data.root
+|21:36:59.914|  (STATUS) Finalization completed
+|21:36:59.915|  (STATUS) Executed 8 instantiations in 2 seconds, spending 64% of time in slowest instantiation ElectricFieldReader:Stave00
+|21:36:59.915|    (INFO)  Module GeometryBuilderGeant4 took 0.0442291 seconds
+|21:36:59.915|    (INFO)  Module DepositionReader took 0.443487 seconds
+|21:36:59.915|    (INFO)  Module ElectricFieldReader:Stave00 took 1.23386 seconds
+|21:36:59.915|    (INFO)  Module ProjectionPropagation:Stave00 took 0.00088899 seconds
+|21:36:59.915|    (INFO)  Module SimpleTransfer:Stave00 took 0.000573841 seconds
+|21:36:59.915|    (INFO)  Module DefaultDigitizer:Stave00 took 0.00181987 seconds
+|21:36:59.915|    (INFO)  Module DetectorHistogrammer:Stave00 took 0.192122 seconds
+|21:36:59.916|    (INFO)  Module ROOTObjectWriter took 0.00709519 seconds
+|21:36:59.916|  (STATUS) Average processing time is 1940 ms/event, event generation at 1 Hz
