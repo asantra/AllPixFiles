@@ -1,0 +1,77 @@
+arkasantra@arkasantra-s-macbookpro1 allpix-squared % ./bin/allpix -c examples/arkaExamples/tutorial-simulation.conf -o Depositionreader.log_level=TRACE
+|14:10:40.782|  (STATUS) Welcome to Allpix^2 v1.6.0+30^g3d3aca0d
+|14:10:40.782|  (STATUS) Initialized PRNG with system entropy seed 15319762236797895229
+|14:10:40.989| (WARNING) Main ROOT file /Users/arkasantra/AllPix2/allpix-squared/output/modules.root exists and will be overwritten.
+|14:10:40.997|  (STATUS) Loaded 7 modules
+|14:10:40.998|  (STATUS) Initializing 7 module instantiations
+|14:10:40.999| (WARNING) [I:DepositionReader] No MCParticle objects will be produced
+|14:10:40.999|   (TRACE) [I:DepositionReader] Creating output plots
+|14:10:41.000|   (TRACE) [I:DepositionReader] Resetting messages
+|14:10:41.000|    (INFO) [I:ElectricFieldReader:Stave00] Setting linear electric field from -5V bias voltage and -5V depletion voltage
+|14:10:42.683| (WARNING) [I:ROOTObjectWriter] File /Users/arkasantra/AllPix2/allpix-squared/output/data.root exists and will be overwritten.
+|14:10:42.684|  (STATUS) Initialized 7 module instantiations
+|14:10:42.685|  (STATUS) Running event 1 of 4
+|14:10:42.685|   (DEBUG) [R:DepositionReader] Start reading event 1
+|14:10:42.685|   (TRACE) [R:DepositionReader] Line read: Event: 1
+|14:10:42.685|    (INFO) [R:DepositionReader] Finished reading event 1
+|14:10:42.685|  (STATUS) Running event 2 of 4
+|14:10:42.686|   (DEBUG) [R:DepositionReader] Start reading event 2
+|14:10:42.686|   (TRACE) [R:DepositionReader] Line read: -11, 12.8934, 7.85445e-06, 60.6453, -0.607368, 3864.5125, Stave00
+|14:10:42.686|   (TRACE) [R:DepositionReader] Truncated detector name: Stave00
+|14:10:42.686|   (DEBUG) [R:DepositionReader] Found detector "Stave00"
+|14:10:42.687|   (DEBUG) [R:DepositionReader] Found deposition of 2149 e/h pairs inside sensor at (7.87156mm,5.64175mm,0mm) in detector Stave00, global (60.6453mm,-607.368um,3864.51mm), particleID -11
+|14:10:42.687|   (TRACE) [R:DepositionReader] Line read: -11, 12.8934, 1.12134e-06, 60.6453, -0.607356, 3864.5125, Stave00
+|14:10:42.687|   (TRACE) [R:DepositionReader] Truncated detector name: Stave00
+|14:10:42.687|   (DEBUG) [R:DepositionReader] Found detector "Stave00"
+|14:10:42.687|   (DEBUG) [R:DepositionReader] Found deposition of 319 e/h pairs inside sensor at (7.87156mm,5.64176mm,0mm) in detector Stave00, global (60.6453mm,-607.356um,3864.51mm), particleID -11
+|14:10:42.688|   (TRACE) [R:DepositionReader] Line read: Event: 2
+|14:10:42.688|    (INFO) [R:DepositionReader] Finished reading event 2
+|14:10:42.688|   (DEBUG) [R:DepositionReader] Detector Stave00 has 4 deposits
+|14:10:42.688|   (TRACE) [R:DepositionReader] Sending message Message<allpix::DepositedCharge> from DepositionReader to ProjectionPropagation:Stave00
+|14:10:42.688|   (TRACE) [R:DepositionReader] Sending message Message<allpix::DepositedCharge> from DepositionReader to generic listener ROOTObjectWriter
+|14:10:42.688|   (TRACE) [R:DepositionReader] ROOT object writer received Message<allpix::DepositedCharge> without a name
+|14:10:42.698|   (DEBUG) [R:DepositionReader] Pre-filling new tree of DepositedCharge with 1 empty events
+|14:10:42.700|    (INFO) [R:ProjectionPropagation:Stave00] Total charge: 2468 (lost: 0, 0%)
+|14:10:42.704|    (INFO) [R:SimpleTransfer:Stave00] Transferred 2468 charges to 1 pixels
+|14:10:42.706| (WARNING) [R:DefaultDigitizer:Stave00] [further messages will be suppressed] Simulation chain does not allow for time-of-arrival calculation
+|14:10:42.706|    (INFO) [R:DefaultDigitizer:Stave00] Digitized 1 pixel hits
+|14:10:42.723|  (STATUS) Running event 3 of 4
+|14:10:42.723|   (DEBUG) [R:DepositionReader] Start reading event 3
+|14:10:42.723|   (TRACE) [R:DepositionReader] Line read: -11, 12.8955, 5.0954e-06, 79.0785, -0.925664, 3864.5125, Stave00
+|14:10:42.723|   (TRACE) [R:DepositionReader] Truncated detector name: Stave00
+|14:10:42.724|   (DEBUG) [R:DepositionReader] Found detector "Stave00"
+|14:10:42.724|   (DEBUG) [R:DepositionReader] Found deposition of 1420 e/h pairs inside sensor at (26.3048mm,5.32346mm,0mm) in detector Stave00, global (79.0785mm,-925.664um,3864.51mm), particleID -11
+|14:10:42.724|   (TRACE) [R:DepositionReader] Line read:
+|14:10:42.724|   (TRACE) [R:DepositionReader] Line read:
+|14:10:42.724|   (TRACE) [R:DepositionReader] Line read:
+|14:10:42.724|   (TRACE) [R:DepositionReader] Line read:
+|14:10:42.724|   (TRACE) [R:DepositionReader] Line read:
+|14:10:42.725|   (TRACE) [R:DepositionReader] Line read:
+|14:10:42.725|   (TRACE) [R:DepositionReader] Line read:
+|14:10:42.725|    (INFO) [R:DepositionReader] Finished reading event 3
+|14:10:42.725|   (DEBUG) [R:DepositionReader] Detector Stave00 has 2 deposits
+|14:10:42.725|   (TRACE) [R:DepositionReader] Sending message Message<allpix::DepositedCharge> from DepositionReader to ProjectionPropagation:Stave00
+|14:10:42.725|   (TRACE) [R:DepositionReader] Sending message Message<allpix::DepositedCharge> from DepositionReader to generic listener ROOTObjectWriter
+|14:10:42.725|   (TRACE) [R:DepositionReader] ROOT object writer received Message<allpix::DepositedCharge> without a name
+|14:10:42.726| (WARNING) [R:DepositionReader] Request to terminate:
+                                              Requesting end of run, CSV file only contains data for 3 events
+|14:10:42.727|    (INFO) [R:ProjectionPropagation:Stave00] Total charge: 1420 (lost: 0, 0%)
+|14:10:42.728|    (INFO) [R:SimpleTransfer:Stave00] Transferred 1420 charges to 2 pixels
+|14:10:42.729|    (INFO) [R:DefaultDigitizer:Stave00] Digitized 1 pixel hits
+|14:10:42.730|    (INFO) Interrupting event loop after 3 events because of request to terminate
+|14:10:42.730|  (STATUS) Finished run of 3 events
+|14:10:42.730|   (TRACE) [F:DepositionReader] Writing output plots to file
+|14:10:42.733|    (INFO) [F:SimpleTransfer:Stave00] Transferred total of 3888 charges to 3 different pixels
+|14:10:42.734|    (INFO) [F:DefaultDigitizer:Stave00] Digitized 2 pixel hits in total
+|14:10:42.982|  (STATUS) [F:ROOTObjectWriter] Wrote 400 objects to 4 branches in file:
+                                              /Users/arkasantra/AllPix2/allpix-squared/output/data.root
+|14:10:42.995|  (STATUS) Finalization completed
+|14:10:42.995|  (STATUS) Executed 7 instantiations in 2 seconds, spending 83% of time in slowest instantiation ElectricFieldReader:Stave00
+|14:10:42.995|    (INFO)  Module DepositionReader took 0.0197761 seconds
+|14:10:42.995|    (INFO)  Module ElectricFieldReader:Stave00 took 1.65653 seconds
+|14:10:42.995|    (INFO)  Module ProjectionPropagation:Stave00 took 0.0037748 seconds
+|14:10:42.995|    (INFO)  Module SimpleTransfer:Stave00 took 0.00714344 seconds
+|14:10:42.995|    (INFO)  Module DefaultDigitizer:Stave00 took 0.00240274 seconds
+|14:10:42.995|    (INFO)  Module DetectorHistogrammer:Stave00 took 0.202192 seconds
+|14:10:42.996|    (INFO)  Module ROOTObjectWriter took 0.0896399 seconds
+|14:10:42.996|  (STATUS) Average processing time is 666 ms/event, event generation at 2 Hz
