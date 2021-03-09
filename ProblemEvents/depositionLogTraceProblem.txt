@@ -1,0 +1,33 @@
+|12:46:03.563|  (STATUS) Welcome to Allpix^2 v1.6.0+30^g3d3aca0d
+|12:46:03.564|  (STATUS) Initialized PRNG with system entropy seed 7422479944399380589
+|12:46:03.752| (WARNING) Main ROOT file /Users/arkasantra/AllPix2/allpix-squared/output/modules.root exists and will be overwritten.
+|12:46:03.760|  (STATUS) Loaded 7 modules
+|12:46:03.760|  (STATUS) Initializing 7 module instantiations
+|12:46:03.762|   (TRACE) [I:DepositionReader] Creating output plots
+|12:46:03.762|   (TRACE) [I:DepositionReader] Resetting messages
+|12:46:05.639| (WARNING) [I:ROOTObjectWriter] File /Users/arkasantra/AllPix2/allpix-squared/output/data.root exists and will be overwritten.
+|12:46:05.640|  (STATUS) Initialized 7 module instantiations
+|12:46:05.640|  (STATUS) Running event 1 of 901
+|12:46:05.641|   (DEBUG) [R:DepositionReader] Start reading event 1
+|12:46:05.641|   (TRACE) [R:DepositionReader] Line read: Event 1
+|12:46:05.641|    (INFO) [R:DepositionReader] Finished reading event 1
+|12:46:05.641|  (STATUS) Running event 2 of 901
+|12:46:05.641|   (DEBUG) [R:DepositionReader] Start reading event 2
+|12:46:05.642|   (TRACE) [R:DepositionReader] Line read: 11, 12.9911, 1.08611e-05, 69.0665, 5.18319, 3864.5125, Stave00, 2, 1
+|12:46:05.642|   (TRACE) [R:DepositionReader] Truncated detector name: Stave00
+|12:46:05.642|   (DEBUG) [R:DepositionReader] Found detector "Stave00"
+|12:46:05.642|   (DEBUG) [R:DepositionReader] Found deposition of 2984 e/h pairs inside sensor at (16.2928mm,11.4323mm,0mm) in detector Stave00, global (69.0665mm,5.18319mm,3864.51mm), particleID 11
+|12:46:05.643|   (DEBUG) [R:DepositionReader] Adding new MCParticle, track id 2, PDG code 11
+|12:46:05.643|   (TRACE) [R:DepositionReader] Line read: -11, 12.896, 4.76687e-06, 80.8288, -0.72616, 3864.5125, Stave00, 1, 2679
+|12:46:05.643|   (TRACE) [R:DepositionReader] Truncated detector name: Stave00
+|12:46:05.643|   (DEBUG) [R:DepositionReader] Found detector "Stave00"
+|12:46:05.643|   (DEBUG) [R:DepositionReader] Found deposition of 1330 e/h pairs inside sensor at (28.0551mm,5.52296mm,0mm) in detector Stave00, global (80.8288mm,-726.16um,3864.51mm), particleID -11
+|12:46:05.644|   (DEBUG) [R:DepositionReader] Adding new MCParticle, track id 1, PDG code -11
+|12:46:05.644|   (TRACE) [R:DepositionReader] Line read:
+|12:46:05.644|   (TRACE) [R:DepositionReader] Line read:
+|12:46:05.644|    (INFO) [R:DepositionReader] Finished reading event 2
+|12:46:05.644|   (DEBUG) [R:DepositionReader] Earliest MCParticle arrived on detector Stave00 at 12.896ns global
+|12:46:05.644|   (DEBUG) [R:DepositionReader] Adding parent relation to MCParticle with track id 1
+|12:46:05.645|   (FATAL) [R:DepositionReader] Fatal internal error
+                                              vector
+                                              Cannot continue.
